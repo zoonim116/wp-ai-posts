@@ -4,11 +4,11 @@
  *
  * @package   Wp Ai Posts
  * @author    Maxim Nepomniashchiy
- * @link      https://github.com/zoonim116/Pushify
+ * @link      https://github.com/zoonim116/wp-ai-posts
  *
  * @wordpress-plugin
  * Plugin Name: Wp Ai Posts - Generate posts using AI
- * Plugin URI:  https://github.com/zoonim116/Pushify
+ * Plugin URI:  https://github.com/zoonim116/wp-ai-posts
  * Description: Generate posts using AI
  * Version:     1.0.0
  * Author:      Maxim Nepomniashchiy
