@@ -1,0 +1,91 @@
+.submit .validate-api-button {
+    margin-left: 10px;
+}
+
+.invalid {
+    color: red;
+}
+
+.valid {
+    color: #00ba37;
+}
+
+#prompt-error {
+    margin: 5px 0;
+}
+
+
+.alert {
+    padding: 20px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+.success {
+    background-color: #4ab866;
+}
+
+.fail {
+    background-color: #f44336;
+}
+
+.loader {
+    width: 20px;
+    height: 20px;
+    background: #FF3D00;
+    display: none;
+    margin: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotationBack 1s ease-in-out infinite reverse;
+}
+.loader::before {
+    content: '';
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    transform: rotate(45deg);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #FF3D00;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.loader::after {
+    content: '';
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #FFF;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+@keyframes rotationBack {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}

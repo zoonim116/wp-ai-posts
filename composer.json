@@ -1,0 +1,17 @@
+{
+  "require": {
+    "guzzlehttp/guzzle": "^7.9",
+    "openai-php/client": "^0.10.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wpapi\\": "includes/",
+      "Wpapi\\Admin\\": "admin/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
